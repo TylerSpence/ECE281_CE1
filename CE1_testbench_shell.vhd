@@ -73,7 +73,7 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin		
-      -- First line of truth table
+      First line of truth table
 		A <= '0';
 		B <= '0';
 		C <= '0';
@@ -86,8 +86,39 @@ BEGIN
 		wait for 100 ns;	
 		
 		-- Complete_ the rest of the truth table below:
-
+		A <= '0';
+		B <= '1';
+		C <= '1';
+		wait for 100 ns;
+		
+		A <= '0';
+		B <= '1';
+		C <= '0';
+		wait for 100 ns;
+		
+		A <= '1';
+		B <= '0';
+		C <= '0';
+		wait for 100 ns;
+		
+		A <= '1';
+		B <= '0';
+		C <= '1';
+		wait for 100 ns;
+		
+		A <= '1';
+		B <= '1';
+		C <= '1';
+		wait for 100 ns;
+		
+		A <= '1';
+		B <= '1';
+		C <= '0';
+		wait for 100 ns;
       wait;
    end process;
+
+END;
+
 
 END;
