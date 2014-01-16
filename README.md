@@ -1,5 +1,4 @@
-
- # Truth Table
+#Truth Table
 
 
 |  A | B  | C  |**F**|
@@ -13,7 +12,7 @@
 | 1  |  1 |  0 |   0 |
 | 1  |  1 |  1 |   1 |
 
- #Analysis of Waveform:
+#Analysis of Waveform:
 ![alt tag] (https://raw2.github.com/TylerSpence/ECE281_CE1/master/screenshot.png)
 
 The results of the waveform correspond with the intended results of the truth table. For each level on the waveform graph there are two discrete values, corresponding to a 0 and 1. 
